@@ -1,10 +1,10 @@
 ;;;; écart-type.asd
 
 (defsystem "écart-type"
-  :description "Describe écart-type here"
-  :author "Your Name <your.name@example.com>"
-  :license  "Specify license here"
-  :version "0.0.1"
+  :description "Ce programme permet de calculer la variance d'une liste de nombres."
+  :author "Round <round@symfunc.com>"
+  :license  "Symfunc"
+  :version "0.5.0"
   :serial t
   :components ((:module "variance"
 		:components
