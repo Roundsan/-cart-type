@@ -4,4 +4,5 @@
 
 
 (defun écart-type (liste)
-  (sqrt (variance:moyenne liste)))
+  (sqrt (fonction-variance liste)))
+

@@ -6,10 +6,6 @@
   :license  "Symfunc"
   :version "0.5.0"
   :serial t
-  :components ((:module "variance"
-		:components
-			((:file "variance")
-			 (:file "package")))
-	       (:file "écart-type")
-	       (:file "package")
-	       ))
+  :components ((:file "package")
+	       (:file "écart-type"))
+:depends-on ("variance"))
